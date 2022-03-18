@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+
+
+  
+}
+
+.App-header {
+  background-color: #94aad6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(20, 19, 19);
+}
+#preview{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgrey;
+  max-width: 400px;
+  border: 2px solid black;
+  box-shadow: 10px 5px 2px 0px #666464;
+  padding:  50px 20px 50px 20px;
+}
+
+#editor{
+ width: 400px;
+ height: 250px;
+ border: 3px solid black ;
+ box-shadow: 10px 5px 2px 0px #666464;
+
+}
+
+
+
+.toolbar1 {
+  background-color: rgb(191, 191, 206);
+  padding: 20px;
+  border: 3px solid black ;
+  margin-top: 90px;
+  max-width: 400px;
+  max-height: 10px;
+  font-size:large;
+  text-align: left;
+  box-shadow: 10px 0px 2px 0px #666464;
+}
+.toolbar2 {
+
+  background-color: rgb(191, 191, 206);
+  padding:  20px 20px 30px 20px;
+  border: 3px solid black ;
+  margin-top: 90px;
+  max-width: 400px;
+  max-height: 10px;
+  font-size:large;
+  text-align: left;
+  box-shadow: 10px 0px 2px 0px #666464;
+
+ 
+}
+.container1{
+  
+  border: 3px solid black ;
+  box-shadow: 10px 15px 12px 15px #000000;
+
+}
+
+.container2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black ;
+  box-shadow: 5px 10px #c2c1c1;
+
+}
+
+  i {
+    width: 25px;
+    margin-left: 5px;
+  }
+
+
+
+
